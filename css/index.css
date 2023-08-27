@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.hiimg {
+    background-image: url(../img/architect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-header {
+    background-color: white;
+    padding: 8px 0;
+    box-shadow: 0px 0px 8px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo p {
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    margin-left: 12px;
+    letter-spacing: 5px;
+}
+
+.logo h3 {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.logo:hover {
+    background-color: #c5c5c5c7;
+}
+
+.navber nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navber nav ul li a {
+    margin-left: 8px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-family: Verdana, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navber nav ul li a:hover {
+    background-color: #c5c5c5c7;
+}
+
+.content {
+    /* width: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content p {
+    font-size: 35px;
+    color: white;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+
+.content h1 {
+    background-color: #000000b6;
+    padding: 13px;
+    color: white;
+    display: inline-block;
+    font-size: 35px;
+    display: flex;
+    margin-right: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+.project-content {
+    padding: 20px 0;
+}
+
+.main-cards {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.project-content h2 {
+    font-weight: 100;
+    border-bottom: 0.5px solid #f1e8e8;
+    padding: 15px 0;
+}
+
+.card-img {
+    background-image: url(../img/card-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+
+}
+
+.main-cards h4 {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.card {
+    width: 25%;
+}
+
+.card-2 .card-img {
+    background-image: url(../img/house2.jpg);
+}
+
+.card-3 .card-img {
+    background-image: url(../img/house3.jpg);
+}
+
+.card-4 .card-img {
+    background-image: url(../img/house4.jpg);
+}
+
+.card-5 .card-img {
+    background-image: url(/img/house2.jpg);
+}
+
+.caed-6 .card-img {
+    background-image: url(/img/card-img.jpg);
+}
+
+.card-7 .card-img {
+    background-image: url(/img/house4.jpg);
+}
+
+.card-8 .card-img {
+    background-image: url(/img/house3.jpg);
+}
+
+.project-content p {
+    padding-top: 20px;
+}
+
+.card-content {
+    justify-content: space-between;
+    /* gap: ; */
+    display: flex;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.About-content h2 {
+    font-weight: 100;
+    border-bottom: 1px solid #e6e3e3b6;
+    padding-bottom: 20px;
+    font-family: Verdana, sans-serif;
+
+}
+
+.About-content p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.team-card {
+    width: 24%;
+}
+
+.team img {
+    width: 100%;
+    display: block;
+}
+
+.card-body {
+    margin-top: 15px;
+}
+
+.main-CEO {
+    margin: 15px 0;
+    color: gray;
+}
+
+.card-body button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.card-body h4 {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+.card-body p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.card-body button:hover {
+    background-color: #c9c8c8;
+}
+
+.Contact-us {
+    margin: 50px 0;
+}
+
+.Contact-us h2 {
+    font-weight: 100;
+    border-bottom: 0.5px solid #f1e8e8;
+    padding: 15px 0;
+}
+
+.Contact-us p {
+    margin-top: 10px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #b1b0b0;
+    margin-top: 13px;
+}
+
+input::placeholder {
+    font-size: 17px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    color: rgba(0, 0, 0, 0.856);
+    background-color: rgb(202, 199, 199);
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}  
+
+@media only screen and (max-width:600px){
+    .card{
+    width: 100%;
+    display: block;
+}
+.team-card{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.navber{
+    display: none;
+}
+.content P{
+    display: none;
+}
+form input{
+    width: 95%;
+}
+.container{
+    width: 90%;
+}
+
+.hiimg{
+    height: 40vh;
+}
+.content{
+    top: 15%;
+}
+}
+@media only screen and (min-width:600px) and (max-width:992px) {
+    .card{
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    .team-card{
+        width: 49%;
+    }
+    .main-cards{
+        gap: 0;
+        margin-top:0;
+    }
+    form input{
+        width: 95%;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1400px){
+    .card{
+        width: 24%;
+        /* margin-bottom: 15px; */
+    }
+    .team-card{
+        width: 24%;
+    }
+    .main-cards{
+        gap: 8px;
+        margin: top 10px;;
+    }
+    form input{
+        width: 100%;
+    }
+}
